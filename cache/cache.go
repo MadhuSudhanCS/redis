@@ -3,8 +3,8 @@ package cache
 import (
 	"encoding/json"
 	"fmt"
-	"github.com/redis/store"
-	"github.com/redis/utils"
+	"github.com/madhusudhancs/redis/store"
+	"github.com/madhusudhancs/redis/utils"
 	"io/ioutil"
 	"path/filepath"
 	"sort"

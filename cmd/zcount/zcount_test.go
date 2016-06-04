@@ -1,8 +1,8 @@
 package zcount
 
 import (
-	"github.com/redis/cache"
-	"github.com/redis/store"
+	"github.com/madhusudhancs/redis/cache"
+	"github.com/madhusudhancs/redis/store"
 	"strings"
 	"testing"
 )

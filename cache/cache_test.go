@@ -2,7 +2,7 @@ package cache
 
 import (
 	"fmt"
-	"github.com/redis/store"
+	"github.com/madhusudhancs/redis/store"
 	"math/rand"
 	"strings"
 	"testing"

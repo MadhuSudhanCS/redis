@@ -3,7 +3,7 @@ package cmd
 //all the commands have to register with their run func
 import (
 	"fmt"
-	"github.com/redis/cache"
+	"github.com/madhusudhancs/redis/cache"
 	"strings"
 )
 

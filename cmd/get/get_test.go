@@ -1,7 +1,7 @@
 package get
 
 import (
-	"github.com/redis/cache"
+	"github.com/madhusudhancs/redis/cache"
 	"strings"
 	"testing"
 )

@@ -1,11 +1,11 @@
 package zrange
 
 import (
-	"github.com/redis/cache"
-	"github.com/redis/cmd"
+	"github.com/madhusudhancs/redis/cache"
+	"github.com/madhusudhancs/redis/cmd"
 	"strconv"
 	"strings"
-	"github.com/redis/utils/log"
+	"github.com/madhusudhancs/redis/utils/log"
 )
 
 const (

@@ -1,10 +1,10 @@
 package getbit
 
 import (
-	"github.com/redis/cache"
-	"github.com/redis/cmd"
+	"github.com/madhusudhancs/redis/cache"
+	"github.com/madhusudhancs/redis/cmd"
 	"strconv"
-	"github.com/redis/utils/log"
+	"github.com/madhusudhancs/redis/utils/log"
 )
 
 const (

@@ -1,13 +1,13 @@
 package zadd
 
 import (
-	"github.com/redis/cache"
-	"github.com/redis/cmd"
-	"github.com/redis/store"
+	"github.com/madhusudhancs/redis/cache"
+	"github.com/madhusudhancs/redis/cmd"
+	"github.com/madhusudhancs/redis/store"
 	"fmt"
 	"strconv"
 	"strings"
-	"github.com/redis/utils/log"
+	"github.com/madhusudhancs/redis/utils/log"
 )
 
 const (

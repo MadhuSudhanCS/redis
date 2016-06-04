@@ -2,9 +2,9 @@ package main
 
 import (
 	"github.com/codegangsta/cli"
-	"github.com/redis/config"
-	"github.com/redis/server"
-	"github.com/redis/utils/log"
+	"github.com/madhusudhancs/redis/config"
+	"github.com/madhusudhancs/redis/server"
+	"github.com/madhusudhancs/redis/utils/log"
 	"os"
 )
 

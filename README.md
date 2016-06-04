@@ -37,21 +37,20 @@ Cache
 Prerequisites
 -------------
 
-* Install GO 1.5 - https://golang.org/dl/
+* Install GO 1.5+ - https://golang.org/dl/
 * Add GO to the path
 
-Steps To run
+Installation
 ------------
 
-Let us call dir where the extracted code is placed as REDIS
-
-* SET ENV variable GOPATH to REDIS/go
-* Change the dir to REDIS/go/src/github.com/redis
-* Build the server via cmd - go build
+$ go get 'github.com/madhusudhancs/redis'
+$ cd $GOPATH/src/github.com/madhusudhancs/redis
+* Build the server 
+    * go build
 * To list the options available
     * ./redis -h
 * To start the server 
     * ./redis -f <Absolute_PATH_TO_JSON_FILE>
-        * ./github.com/redis -f ./db/dump.json
+        * ./redis -f ./db/dump.json
         * Ensure dir db is created in the path
 

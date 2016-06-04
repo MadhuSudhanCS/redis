@@ -3,7 +3,7 @@ package server
 import (
 	"bufio"
 	"fmt"
-	"github.com/redis/config"
+	"github.com/madhusudhancs/redis/config"
 	"net"
 	"os"
 	"testing"
