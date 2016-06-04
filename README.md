@@ -1,23 +1,9 @@
-github.com/redis
+redis
 ========
 
 * In-Memory Data Store.
 * Implements subset of Redis commands.
 * Command reply is according to Redis Protocol.
-
-Description
------------
-
-* ExoRedis server listens to TCP port 15000 for all the incomming requests.
-* Server loads all the key-value pairs to cache from the db file at the start up.
-* During exit(CTRL+C/SIGINT) cache is saved to json file.
-
-Cache
------
-
-* Cache is made up of buckets.
-* Buckets hold key-value pair.
-* To distribute the cache load, number of buckets in the cache can be increased/decreased which is conifigurable.
 
 Commands supported
 ------------------
@@ -32,6 +18,21 @@ Commands supported
 * ZCARD
 * ZCOUNT
 * ZRANGE
+
+
+Description
+-----------
+
+* Redis server listens to TCP port 15000 for all the incomming requests.
+* Server loads all the key-value pairs to cache from the db file at the start up.
+* During exit(CTRL+C/SIGINT) cache is saved to json file.
+
+Cache
+-----
+
+* Cache is made up of buckets.
+* Buckets hold key-value pair.
+* To distribute the cache load, number of buckets in the cache can be increased/decreased which is conifigurable.
 
 Prerequisites
 -------------
