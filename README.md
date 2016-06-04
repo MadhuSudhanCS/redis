@@ -52,5 +52,5 @@ $ cd $GOPATH/src/github.com/madhusudhancs/redis
 * To start the server 
     * ./redis -f <Absolute_PATH_TO_JSON_FILE>
         * ./redis -f ./db/dump.json
-        * Ensure dir db is created in the path
+        * Ensure empty file ./db/dump.json is created in the path
 
